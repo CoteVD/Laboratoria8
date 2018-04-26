@@ -1,0 +1,116 @@
+html,body{
+    height: 100%;
+    background: pink;
+    background-image: url("http://www.vivemejor.com/Images/3662/3662-1145248-L14-Reglas-de-oro-de-las-mujeres-felices-4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    }
+
+div{
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    text-align: center;
+    box-sizing: content-box;
+    display: inline-block;
+    border: 6px ridge white;
+    }
+
+h1{
+    color: black;
+    font-size: 40px;
+    font-family: Arial;
+    }
+  
+p{
+    color: black;
+    font-size: 30px;
+    font-family: Arial;
+    }  
+
+.box1{
+    opacity: 0.8;
+    background: pink;
+    position: relative;
+    top: 80px; 
+    bottom: 0px;
+    right: 0px;
+    left: 210px;
+    }
+
+.box2{
+    opacity: 0.8;
+    background: pink;
+    position: relative;
+    top: 250px; 
+    bottom: 0px;
+    right: 0px;
+    left: 330px;
+    }
+
+#name{
+    color: black;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;    
+    top: 200px; 
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    }
+
+#answer{
+    opacity: 0.8;
+    background: pink;
+    position: relative;
+    top: 310px; 
+    bottom: 0px;
+    right: 0px;
+    left: 210px;
+    text-align: center;
+    box-sizing: content-box;
+    display: inline-block;
+    border: 6px ridge white;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    }
+
+#error{
+    opacity: 0.8;
+    background: pink;
+    position: relative;
+    top: 310px; 
+    bottom: 0px;
+    right: 0px;
+    left: 210px;
+    text-align: center;
+    box-sizing: content-box;
+    display: inline-block;
+    border: 6px ridge white;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    }
+
+#buttons{
+      text-align: center;
+      position: fixed;
+      top: 540px; 
+      bottom: 140px;
+      right: 0px;
+      left: 0px;
+    }
+
+#button{
+      text-align: center;
+      position: fixed;
+      top: 480px; 
+      bottom: 80px;
+      right: 0px;
+      left: 0px;
+    }

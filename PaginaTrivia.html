@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenida a la trivia</title>
+</head>
+
+  <body>
+    <link rel="stylesheet" href="Diseño.css">
+
+    <script>
+        var name = prompt ("¡Hola! ¿Cuál es tu nombre?");        
+        document.open();
+        document.write('<p id="name">Bienvenida '+ name + '</p>');
+        document.close();
+    </script>    
+
+    <div class="box1">
+        <h1>Laboratoria</h1>
+        <p>Bienvenida  al juego de trivia sobre Laboratoria.</p>
+        <p>Te haremos 5 preguntas para saber tu conocimiento sobre nosotras.</p>
+        <p>¡Mucha suerte!</p>
+    </div>
+    
+    <element id="buttons">
+        <form action="Preguntas.html"><input type="submit" value="Jugar"></form>
+        <form action="PaginaCancelar.html"><input type="submit" value="Cancelar"></form>
+    </element>
+
+  </body>
+</html>
