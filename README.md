@@ -13,3 +13,4 @@ Responder las preguntas escribiendolas para ver si al final conoces lo suficient
 * CSS3
 * HTML5
 ### Link al Deploy
+https://cotevd.github.io/LaboratoriaTrivia/PaginaTrivia.html
